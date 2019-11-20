@@ -1,0 +1,57 @@
+
+
+#content {
+	text-align: center;
+	padding: 25%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0;4)
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+body {
+	background: url("books.jpg");
+	background-size: cover;
+	background-position: top-left;
+  background-color: transparent;
+	font-family: Lato;
+	color: white;
+
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 5em;
+}
+
+html {
+	height: 100%;
+}
+
+hr {
+	width: 400px;
+	border-top: 1px solid F8F8F8;
+	border-bottom: : 1px solid 0000.2;
+}
+
+a {
+  color: white;
+}
+
+/* .jumbotron.jumbotron-fluid {
+  background-image: url("books.jpg");
+  background-size: cover;
+  padding-top: 5%;
+  padding-bottom: 40%;
+
+} */
+
+.first {
+  height:100vh;
+  min-height:400px;
+  background-size:cover;
+  background-image:url('books.jpg');
+}
+
+#navigation,.navbar .navbar-default{
+  background-image: url("books.jpg");
+}

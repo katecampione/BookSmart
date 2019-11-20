@@ -1,0 +1,61 @@
+html,body {
+  height:100%;
+}
+
+.first {
+  height:100vh;
+  min-height:400px;
+  background-size:cover;
+  background-image:url('books.jpg');
+  opacity: .90;
+  font-family: 'Playfair Display', serif;
+}
+
+section {
+  height:calc(90% - 50px);
+  height: 90vh;
+}
+
+a.navbar-brand {
+  color: #333333;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4em;
+  padding-left: 0px;
+}
+
+ul.nav li a, ul.nav li a:visited {
+    color: #333333; !important;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2em;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+    color: #333333; !important;
+    font-family: 'Playfair Display', serif;
+}
+
+ul.nav li.active a {
+    color: #333333; !important;
+    font-family: 'Playfair Display', serif;
+}
+
+.first-container {
+  padding-top: 15%;
+  padding-left: 10%;
+}
+
+.display-4{
+  font-size: 4em;
+}
+
+p.lead {
+  font-size: 1.6em;
+}
+
+#button {
+  margin-left: 5%;
+}
+
+.navbar-brand:hover {
+  color: #333333;
+}
